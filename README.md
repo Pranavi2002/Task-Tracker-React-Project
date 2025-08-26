@@ -125,6 +125,8 @@ src/
 ![Settings Page](screenshots/settings.png)
 ![Dark Theme Page](screenshots/dark-theme.png)
 
+---
+
 ## 🎯 Future Improvements
 
 - Backend integration for multi-user support
