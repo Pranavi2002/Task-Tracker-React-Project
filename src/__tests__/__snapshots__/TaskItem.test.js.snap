@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskItem Snapshot renders correctly 1`] = `
+<DocumentFragment>
+  <li
+    style="margin-bottom: 10px; padding: 12px; border-radius: 8px; background-color: rgb(255, 255, 255); box-shadow: 0 1px 4px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; opacity: 0; transform: translateX(-50px);"
+  >
+    <span
+      style="text-decoration: none; cursor: pointer; color: red;"
+    >
+      Test Task (Due: 2025-08-24 ⚠️ Overdue)
+    </span>
+    <button
+      style="padding: 5px 10px; margin-left: 5px; border-radius: 5px; cursor: pointer; background-color: rgb(135, 206, 235); color: rgb(255, 255, 255); transition: 0.3s;"
+      tabindex="0"
+    >
+      Edit
+    </button>
+    <button
+      style="padding: 5px 10px; margin-left: 5px; border-radius: 5px; cursor: pointer; background-color: rgb(211, 47, 47); color: rgb(255, 255, 255); transition: 0.3s;"
+      tabindex="0"
+    >
+      ❌ Delete
+    </button>
+  </li>
+</DocumentFragment>
+`;

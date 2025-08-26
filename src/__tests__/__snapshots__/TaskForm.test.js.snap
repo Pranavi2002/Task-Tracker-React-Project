@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskForm Snapshot renders correctly 1`] = `
+<DocumentFragment>
+  <form
+    style="margin-top: 20px;"
+  >
+    <input
+      placeholder="Enter a task"
+      style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; margin-right: 10px;"
+      type="text"
+      value=""
+    />
+    <input
+      style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; margin-right: 10px;"
+      type="date"
+      value=""
+    />
+    <button
+      style="padding: 6px 12px; border-radius: 5px; cursor: pointer; background-color: rgb(76, 175, 80); color: rgb(255, 255, 255); transition: 0.3s;"
+      tabindex="0"
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+</DocumentFragment>
+`;

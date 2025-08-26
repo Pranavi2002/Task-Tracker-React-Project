@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import TaskPage from "./pages/TaskPage";
+import Settings from "./pages/Settings";
+import About from "./pages/About";
+import NotFound from "./pages/NotFound";
+import Navbar from "./components/Navbar";
+import { Box, CssBaseline } from "@mui/material";
 
-function App() {
+export default function App() {
+  // const navStyle = {
+  //   display: "flex",
+  //   justifyContent: "center",
+  //   gap: "20px",
+  //   margin: "20px 0",
+  //   fontSize: "18px",
+  // };
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div>
+    // no need to use div, while using  Box (for mui)
+      <Box sx={{ minHeight: "100vh" }}>
+      <CssBaseline /> {/* ensures MUI components adapt to theme */}
+    <Navbar />
+
+      <Routes>
+        <Route path="/" element={<TaskPage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+
+      </Box>
+    // </div>
   );
 }
-
-export default App;

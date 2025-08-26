@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskPage Snapshot renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    style="padding: 20px; background-color: rgb(244, 244, 249); color: rgb(34, 34, 34); min-height: 100vh; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"
+  >
+    <h1
+      style="text-align: center;"
+    >
+      Task Tracker
+    </h1>
+    <form
+      style="margin-top: 20px;"
+    >
+      <input
+        placeholder="Enter a task"
+        style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; margin-right: 10px;"
+        type="text"
+        value=""
+      />
+      <input
+        style="padding: 8px; border-radius: 5px; border: 1px solid #ccc; margin-right: 10px;"
+        type="date"
+        value=""
+      />
+      <button
+        style="padding: 6px 12px; border-radius: 5px; cursor: pointer; background-color: rgb(76, 175, 80); color: rgb(255, 255, 255); transition: 0.3s;"
+        tabindex="0"
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+    <div
+      style="margin-top: 20px; text-align: center;"
+    >
+      <label>
+        Filter: 
+      </label>
+      <select
+        style="padding: 5px 8px; margin-left: 10px; border-radius: 5px; border: 1px solid #ccc;"
+      >
+        <option
+          value="all"
+        >
+          All
+        </option>
+        <option
+          value="active"
+        >
+          Active
+        </option>
+        <option
+          value="completed"
+        >
+          Completed
+        </option>
+      </select>
+      <label
+        style="margin-left: 20px;"
+      >
+        Sort by Due Date: 
+      </label>
+      <select
+        style="padding: 5px 8px; margin-left: 10px; border-radius: 5px; border: 1px solid #ccc;"
+      >
+        <option
+          value="none"
+        >
+          None
+        </option>
+        <option
+          value="asc"
+        >
+          Earliest First
+        </option>
+        <option
+          value="desc"
+        >
+          Latest First
+        </option>
+      </select>
+    </div>
+    <div
+      style="position: relative; height: 400px; width: 100%; overflow: auto; will-change: transform; direction: ltr;"
+    >
+      <div
+        style="height: 120px; width: 100%;"
+      >
+        <div
+          style="position: absolute; left: 0px; top: 0px; height: 60px; width: 100%;"
+        >
+          <li
+            style="margin-bottom: 10px; padding: 12px; border-radius: 8px; background-color: rgb(255, 255, 255); box-shadow: 0 1px 4px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; opacity: 0; transform: translateX(-50px);"
+          >
+            <span
+              style="text-decoration: none; cursor: pointer; color: red;"
+            >
+              Task 1 (Due: 2025-08-24 ⚠️ Overdue)
+            </span>
+            <button
+              style="padding: 5px 10px; margin-left: 5px; border-radius: 5px; cursor: pointer; background-color: rgb(135, 206, 235); color: rgb(255, 255, 255); transition: 0.3s;"
+              tabindex="0"
+            >
+              Edit
+            </button>
+            <button
+              style="padding: 5px 10px; margin-left: 5px; border-radius: 5px; cursor: pointer; background-color: rgb(211, 47, 47); color: rgb(255, 255, 255); transition: 0.3s;"
+              tabindex="0"
+            >
+              ❌ Delete
+            </button>
+          </li>
+        </div>
+        <div
+          style="position: absolute; left: 0px; top: 60px; height: 60px; width: 100%;"
+        >
+          <li
+            style="margin-bottom: 10px; padding: 12px; border-radius: 8px; background-color: rgb(255, 255, 255); box-shadow: 0 1px 4px rgba(0,0,0,0.1); display: flex; justify-content: space-between; align-items: center; opacity: 0; transform: translateX(-50px);"
+          >
+            <span
+              style="text-decoration: line-through; cursor: pointer;"
+            >
+              Task 2 
+            </span>
+            <button
+              style="padding: 5px 10px; margin-left: 5px; border-radius: 5px; cursor: pointer; background-color: rgb(135, 206, 235); color: rgb(255, 255, 255); transition: 0.3s;"
+              tabindex="0"
+            >
+              Edit
+            </button>
+            <button
+              style="padding: 5px 10px; margin-left: 5px; border-radius: 5px; cursor: pointer; background-color: rgb(211, 47, 47); color: rgb(255, 255, 255); transition: 0.3s;"
+              tabindex="0"
+            >
+              ❌ Delete
+            </button>
+          </li>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskList Snapshot renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    style="position: relative; height: 400px; width: 100%; overflow: auto; will-change: transform; direction: ltr;"
+  >
+    <div
+      style="height: 120px; width: 100%;"
+    >
+      <div
+        style="position: absolute; left: 0px; top: 0px; height: 60px; width: 100%;"
+      >
+        <div>
+          Mocked TaskItem
+        </div>
+      </div>
+      <div
+        style="position: absolute; left: 0px; top: 60px; height: 60px; width: 100%;"
+      >
+        <div>
+          Mocked TaskItem
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

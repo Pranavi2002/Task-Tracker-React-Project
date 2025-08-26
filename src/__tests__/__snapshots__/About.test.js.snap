@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Snapshot renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    style="padding: 20px; min-height: 70vh; background-color: rgb(255, 255, 255); color: rgb(34, 34, 34); transition: 0.3s; text-align: center;"
+  >
+    <h1>
+      About Page
+    </h1>
+    <p>
+      This is a React Task Tracker app. Features include add/edit/delete tasks, filter, sort, and theme toggle.
+    </p>
+  </div>
+</DocumentFragment>
+`;
