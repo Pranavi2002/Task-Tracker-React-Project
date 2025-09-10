@@ -122,10 +122,10 @@ src/
 ### Edit
 ![Edit Page](screenshots/edit.png)
 
-### Filter Active
+### Filter - Active
 ![Filter Active Page](screenshots/filter-active.png)
 
-### Filter Completed
+### Filter - Completed
 ![Filter Completed Page](screenshots/filter-completed.png)
 
 ### Sort
