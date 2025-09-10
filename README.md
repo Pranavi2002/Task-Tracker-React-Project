@@ -116,13 +116,28 @@ src/
 
 ## Screenshots
 
+### Home
 ![Home Page](screenshots/home.png)
+
+### Edit
 ![Edit Page](screenshots/edit.png)
+
+### Filter Active
 ![Filter Active Page](screenshots/filter-active.png)
+
+### Filter Completed
 ![Filter Completed Page](screenshots/filter-completed.png)
+
+### Sort
 ![Sort Page](screenshots/sort.png)
+
+### About
 ![About Page](screenshots/about.png)
+
+### Settings
 ![Settings Page](screenshots/settings.png)
+
+### Dark Theme
 ![Dark Theme Page](screenshots/dark-theme.png)
 
 ---
